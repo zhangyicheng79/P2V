@@ -1,0 +1,78 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1878023085" file="C:\Users\40946\Documents\MATLAB\LGMDapp\P2V\PVconvertor.prj" location="C:\Users\40946\Documents\MATLAB\LGMDapp\P2V" name="PVconvertor" target="target.mlapps" target-name="打包为 App">
+    <param.appname>PVconvertor</param.appname>
+    <param.authnamewatermark>Yicheng Zhang</param.authnamewatermark>
+    <param.email>17688087@students.lincoln.ac.uk</param.email>
+    <param.company>University of Lincoln</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>This app can change a series of images into a video file, or vice versa</param.summary>
+    <param.description>This app can change a series of images into a video file, or vice versa</param.description>
+    <param.screenshot>C:\Users\40946\AppData\Local\Temp\tpa3aebb92_1156_41b7_8df8_f941cd71589d.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>dc50bfeb-65d7-4ae3-8504-21406589c8fc</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\P2V_En.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\40946\Documents\MATLAB\LGMDapp" name="P2V" optional="false">C:\Users\40946\Documents\MATLAB\LGMDapp\P2V</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\Polyspace\R2019b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
